@@ -1,0 +1,43 @@
+@import '@/app/variables';
+
+.container {
+  display: flex;
+  width: 300px;
+  height: 100%;
+}
+
+.nav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.name {
+  font-size: $title;
+  text-transform: uppercase;
+}
+
+.navItems {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.navItem {
+  margin-bottom: 10px;
+  font-size: $subtitle;
+  color: $accent6;
+}
+
+.subNavItem {
+  margin-left: 20px;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  flex-grow: 1;
+}

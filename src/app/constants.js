@@ -1,0 +1,118 @@
+export const JULIE_FILMS = [
+  {
+    name: 'Joan',
+    meta: '2024 | Digital | 16min',
+    summary:
+      'A woman looks for her fiance on her wedding day. Based upon folklore and literature surrounding James Harris, the Daemon Lover, including "House Carpenter" broadsides and the work of Shirley Jackson and Elizabeth Bowen.',
+    cast: [
+      {
+        name: 'Sofia Ines Garcia',
+        role: 'Joan',
+      },
+      {
+        name: 'David Dietz',
+        role: 'Mr. Jim Harris',
+      },
+      {
+        name: 'Kate Miller',
+        role: 'Mrs. Harris',
+      },
+      {
+        name: 'Sean Nolan',
+        role: 'Driver',
+      },
+      {
+        name: 'Desmond Engel',
+        role: 'Guy at the Bus Stop',
+      },
+      {
+        name: 'Jackson Blanchard',
+        role: 'Florist',
+      },
+      {
+        name: 'Grant Beiler',
+        role: 'Other Florist',
+      },
+      {
+        name: 'Natalia Sebastian',
+        role: 'Newscaster',
+      },
+      {
+        name: 'Isaiah Allen',
+        role: 'Guy on the Swing',
+      },
+      {
+        name: 'Alyssa Kelly',
+        role: 'Girl on the Sidewalk',
+      },
+    ],
+    link: 'https://www.youtube.com/embed/xS6eYxaZtAQ?si=sDWJaiMvSHe5j_PL',
+    crew: [
+      {
+        name: 'Julie Rostock',
+        role: 'writer, director, producer',
+      },
+      {
+        name: 'Anastasia Matveev',
+        role: 'assistant director',
+      },
+      {
+        name: 'Max Furman',
+        role: 'assistant director, editor',
+      },
+      {
+        name: 'Sofia Ines Garcia',
+        role: 'assistant director',
+      },
+      {
+        name: 'Wendy Moore',
+        role: 'sound recordist',
+      },
+      {
+        name: 'Julie Rostock',
+        role: 'editor',
+      },
+      {
+        name: 'Ben Murdy',
+        role: 'director of photography',
+      },
+      {
+        name: 'Kayla Brockington',
+        role: 'colorist',
+      },
+      {
+        name: 'Annabelle Kyle',
+        role: 'lighting designer',
+      },
+      {
+        name: 'Kylie Hechinger',
+        role: 'original score',
+      },
+      {
+        name: 'Daniel Cheng',
+        role: 'score performance',
+      },
+      {
+        name: 'Kylie Hechinger',
+        role: 'score performance',
+      },
+      {
+        name: 'Michael Levin',
+        role: 'score performance',
+      },
+    ],
+    more: 'Thanks for use of locations to Carrie Stanton, Napoli’s Pizza, Squirrel Hill Flowers, Kate Miller<br />Thank you to the Horror Studies Working Group for funding and Dana Och for support<br />Produced in Pittsburgh, PA in 2024 on a budget of $1000',
+  },
+  {
+    name: 'Poo Mama',
+    meta: '2024 | Digital | 22min',
+    summary:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
+  },
+  {
+    name: 'Tenstagram',
+    meta: '2024 | Digital | 22min',
+    summary:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
+  },
+];

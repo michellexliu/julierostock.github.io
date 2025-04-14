@@ -1,0 +1,51 @@
+@import '@/app/variables';
+
+.container {
+  padding-bottom: 30px;
+}
+
+.video {
+  width: 100%;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: $title;
+}
+
+.metadata {
+  font-size: $subtitle;
+  color: $accent6;
+}
+
+.info {
+  padding-top: 20px;
+  font-size: $body;
+  color: $accent6;
+}
+
+.body {
+  font-size: $body;
+  color: $accent6;
+}
+
+.header {
+  font-size: $subtitle;
+  padding-top: 20px;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  margin-bottom: 20px;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
