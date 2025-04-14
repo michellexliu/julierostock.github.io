@@ -1,4 +1,4 @@
-@import '@/app/variables';
+@import '~@/app/variables';
 
 .container {
   padding-bottom: 30px;
@@ -48,4 +48,8 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.more {
+  margin-top: 20px;
 }

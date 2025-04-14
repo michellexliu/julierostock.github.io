@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Joan from '@/app/media/joan_thumbnail.jpg';
 import styles from './index.module.scss';
 
 export default function FilmInfo({

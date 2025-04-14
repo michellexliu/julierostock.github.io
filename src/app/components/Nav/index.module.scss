@@ -1,4 +1,4 @@
-@import '@/app/variables';
+@import '~@/app/variables';
 
 .container {
   display: flex;
@@ -26,10 +26,15 @@
   padding-top: 20px;
 }
 
+.name {
+  cursor: pointer;
+}
+
 .navItem {
   margin-bottom: 10px;
   font-size: $subtitle;
   color: $accent6;
+  cursor: pointer;
 }
 
 .subNavItem {

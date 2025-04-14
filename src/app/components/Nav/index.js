@@ -8,8 +8,6 @@ const Nav = ({ children }) => {
         <h2 className={styles.name}>JULIE ROSTOCK</h2>
         <ul className={styles.navItems}>
           <li className={styles.navItem}>Work</li>
-          <li className={cn(styles.navItem, styles.subNavItem)}>My Films</li>
-          <li className={cn(styles.navItem, styles.subNavItem)}>Other Work</li>
           <li className={styles.navItem}>CV</li>
           <li className={styles.navItem}>About</li>
           <li className={styles.navItem}>Etc</li>

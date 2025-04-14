@@ -103,16 +103,4 @@ export const JULIE_FILMS = [
     ],
     more: 'Thanks for use of locations to Carrie Stanton, Napoli’s Pizza, Squirrel Hill Flowers, Kate Miller<br />Thank you to the Horror Studies Working Group for funding and Dana Och for support<br />Produced in Pittsburgh, PA in 2024 on a budget of $1000',
   },
-  {
-    name: 'Poo Mama',
-    meta: '2024 | Digital | 22min',
-    summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
-  },
-  {
-    name: 'Tenstagram',
-    meta: '2024 | Digital | 22min',
-    summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim',
-  },
 ];
