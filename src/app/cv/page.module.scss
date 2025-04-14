@@ -1,0 +1,62 @@
+@import '@/app/variables';
+
+.cvContainer {
+  width: 70%;
+}
+
+.content {
+  width: 100%;
+  padding: 40px;
+  padding-top: 20px;
+}
+
+.organization {
+  font-size: $body;
+  color: $accent6;
+}
+
+.section {
+  margin-bottom: 50px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.sectionTitle {
+  font-size: $title;
+  margin: 0 0 30px 0;
+  color: $accent6;
+}
+
+.cvItem {
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.role {
+  font-size: $subtitle;
+  font-weight: bold;
+  margin: 0;
+}
+
+.timePeriod {
+  font-size: $body;
+  color: $accent6;
+}
+
+.description {
+  font-size: $body;
+  margin: 0;
+  color: $accent6;
+}

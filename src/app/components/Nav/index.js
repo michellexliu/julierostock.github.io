@@ -1,16 +1,26 @@
 import styles from './index.module.scss';
-import cn from 'classnames';
+import Link from 'next/link';
 
 const Nav = ({ children }) => {
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        <h2 className={styles.name}>JULIE ROSTOCK</h2>
+        <h2 className={styles.name}>
+          <Link href="/">JULIE ROSTOCK</Link>
+        </h2>
         <ul className={styles.navItems}>
-          <li className={styles.navItem}>Work</li>
-          <li className={styles.navItem}>CV</li>
-          <li className={styles.navItem}>About</li>
-          <li className={styles.navItem}>Etc</li>
+          <li className={styles.navItem}>
+            <Link href="/">Work</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/cv">CV</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/about">About</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/etc">Etc</Link>
+          </li>
         </ul>
       </nav>
       <main className={styles.content}>{children}</main>

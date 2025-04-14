@@ -104,3 +104,61 @@ export const JULIE_FILMS = [
     more: 'Thanks for use of locations to Carrie Stanton, Napoli’s Pizza, Squirrel Hill Flowers, Kate Miller<br />Thank you to the Horror Studies Working Group for funding and Dana Och for support<br />Produced in Pittsburgh, PA in 2024 on a budget of $1000',
   },
 ];
+
+export const CV_SECTIONS = {
+  experience: {
+    title: 'Experience',
+    items: [
+      {
+        role: 'Video Production Director',
+        organization: 'WPTS',
+        timePeriod: 'May 2025 - Present',
+      },
+      {
+        role: 'Mathematics Tutor',
+        organization: 'Grade Potential Tutoring',
+        timePeriod: 'October 2024 - Present',
+      },
+      {
+        role: 'Technical Director',
+        organization: 'SCENE (Steel City Entertainment Networking Entity)',
+        timePeriod: 'August 2024 - Present',
+      },
+      {
+        role: 'Barista',
+        organization: 'Margaux',
+        timePeriod: 'October 2024 - Present',
+      },
+      {
+        role: 'Bartender',
+        organization: 'Lawrenceville Market House',
+        timePeriod: 'January 2024 - September 2024',
+      },
+      {
+        role: 'Server',
+        organization: "Pamela's Diner",
+        timePeriod: 'January 2023 - April 2023',
+      },
+    ],
+  },
+  ownFilms: {
+    title: 'Films',
+    items: [
+      {
+        role: 'Joan',
+        description: 'Director & Writer',
+        timePeriod: '2024',
+      },
+    ],
+  },
+  otherFilms: {
+    title: 'Other Work',
+    items: [
+      {
+        role: 'Sound',
+        description: '"Blah Blah" - Student Film',
+        timePeriod: '2023',
+      },
+    ],
+  },
+};
