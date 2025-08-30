@@ -46,3 +46,9 @@
 .selectedFilm {
   color: $accent8;
 }
+
+@media (max-width: 768px) {
+  .homeContainer {
+    margin-top: 50px;
+  }
+}

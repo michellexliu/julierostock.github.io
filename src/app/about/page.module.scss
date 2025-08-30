@@ -58,3 +58,9 @@
   margin: 0;
   color: $accent6;
 }
+
+@media (max-width: 768px) {
+  .cvContainer {
+    margin-top: 50px;
+  }
+}
