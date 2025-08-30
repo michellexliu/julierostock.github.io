@@ -3,7 +3,7 @@ export const JULIE_FILMS = [
     name: 'Joan',
     meta: '2024 | Digital | 16min',
     summary:
-      'A woman looks for her fiance on her wedding day. Based upon folklore and literature surrounding James Harris, the Daemon Lover, including "House Carpenter" broadsides and the work of Shirley Jackson and Elizabeth Bowen.',
+      '<p>A woman looks for her fiance on her wedding day. Based upon folklore and literature surrounding James Harris, the Daemon Lover, including "House Carpenter" broadsides and the work of Shirley Jackson and Elizabeth Bowen.</p><br /><p><em>Recipient of the 2024 Horror Studies Working Group Student Project Scholarship<br />Screened at Horror Realm Pittsburgh and Off Page Film Festival in West Chester, PA</em></p>',
     cast: [
       {
         name: 'Sofia Ines Garcia',
@@ -110,34 +110,19 @@ export const CV_SECTIONS = {
     title: 'Experience',
     items: [
       {
-        role: 'Video Production Director',
-        organization: 'WPTS',
-        timePeriod: 'May 2025 - Present',
+        role: 'Intern',
+        organization: 'Bodega Film Lab',
+        timePeriod: 'July 2025 - Present',
       },
       {
-        role: 'Mathematics Tutor',
-        organization: 'Grade Potential Tutoring',
-        timePeriod: 'October 2024 - Present',
+        role: 'Productions Director & DJ',
+        organization: 'WPTS',
+        timePeriod: 'May 2025 - Present',
       },
       {
         role: 'Technical Director',
         organization: 'SCENE (Steel City Entertainment Networking Entity)',
         timePeriod: 'August 2024 - Present',
-      },
-      {
-        role: 'Barista',
-        organization: 'Margaux',
-        timePeriod: 'October 2024 - Present',
-      },
-      {
-        role: 'Bartender',
-        organization: 'Lawrenceville Market House',
-        timePeriod: 'January 2024 - September 2024',
-      },
-      {
-        role: 'Server',
-        organization: "Pamela's Diner",
-        timePeriod: 'January 2023 - April 2023',
       },
     ],
   },
@@ -145,9 +130,11 @@ export const CV_SECTIONS = {
     title: 'Films',
     items: [
       {
-        role: 'Joan',
-        description: 'Director & Writer',
+        filmName: 'Joan',
+        role: 'Director & Writer',
         timePeriod: '2024',
+        description:
+          '<em>Recipient of the 2024 Horror Studies Working Group Student Project Scholarship<br />Screened at Horror Realm Pittsburgh and Off Page Film Festival in West Chester, PA</em>',
       },
     ],
   },
@@ -155,9 +142,19 @@ export const CV_SECTIONS = {
     title: 'Other Work',
     items: [
       {
-        role: 'Sound',
-        description: '"Blah Blah" - Student Film',
-        timePeriod: '2023',
+        role: 'Boom Operator',
+        filmName: 'A Better Day - Zack Hankins',
+        timePeriod: '2025',
+      },
+      {
+        role: 'Boom Operator',
+        filmName: "Girls' Night - Anastasia Matveev",
+        timePeriod: '2024',
+      },
+      {
+        role: 'Boom & Camera Operator',
+        filmName: 'Iron City Lights - Max Furman',
+        timePeriod: '2024',
       },
     ],
   },

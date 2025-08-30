@@ -24,7 +24,10 @@ export default function FilmInfo({
       )}
       <h1 className={styles.name}>{name}</h1>
       <p className={styles.metadata}>{meta}</p>
-      <p className={styles.info}>{summary}</p>
+      <p
+        className={styles.info}
+        dangerouslySetInnerHTML={{ __html: summary }}
+      />
       {cast && (
         <>
           <p className={styles.header}>Cast</p>

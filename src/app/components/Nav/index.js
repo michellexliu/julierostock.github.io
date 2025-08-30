@@ -18,9 +18,6 @@ const Nav = ({ children }) => {
           <li className={styles.navItem}>
             <Link href="/about">About</Link>
           </li>
-          <li className={styles.navItem}>
-            <Link href="/etc">Etc</Link>
-          </li>
         </ul>
       </nav>
       <main className={styles.content}>{children}</main>

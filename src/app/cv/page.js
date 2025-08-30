@@ -1,4 +1,3 @@
-'use client';
 import { CV_SECTIONS } from '../constants';
 import styles from './page.module.scss';
 
@@ -10,13 +9,22 @@ export default function CV() {
           <div key={section.title} className={styles.section}>
             <h2 className={styles.sectionTitle}>{section.title}</h2>
             {section.items.map((item, index) => (
-              <div key={`${item.role}-${index}`} className={styles.cvItem}>
+              <div
+                key={`${item.organization}-${item.role}-${index}`}
+                className={styles.cvItem}
+              >
                 <div className={styles.header}>
-                  <h3 className={styles.role}>{item.role}</h3>
-                  <span className={styles.timePeriod}>{item.timePeriod}</span>
+                  <span>
+                    <strong>{item.timePeriod}</strong> | {item.role},{' '}
+                    {item.organization ?? item.filmName}
+                  </span>
                 </div>
-                <h3 className={styles.organization}>{item.organization}</h3>
-                <p className={styles.description}>{item.description}</p>
+                {item.description && (
+                  <p
+                    className={styles.description}
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  ></p>
+                )}
               </div>
             ))}
           </div>
