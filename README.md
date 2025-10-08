@@ -5,7 +5,7 @@
 4. Click 'commit changes...'
 5. (optional) Edit commit message
 6. Click 'commit changes'
-7. Wait a min or 2, then check https://julierostock.netlify.app/. You should also be able to see the status below
+7. Wait a min or 2, then check https://julierostock.netlify.app/. You should also be able to refresh this page and look at the status below ('Building' means your changes are being deployed, 'Success' means your changes have loaded). You may need to do a hard refresh (command + SHIFT + r) on your website to see the changes.
 
 ## Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5751ff4a-585f-4d8c-a6cc-7479ff6ac43e/deploy-status)](https://app.netlify.com/projects/julierostock/deploys)
