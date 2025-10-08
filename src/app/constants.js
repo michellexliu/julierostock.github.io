@@ -106,19 +106,19 @@ export const CV_SECTIONS = {
     title: 'Experience',
     items: [
       {
-        role: 'Intern',
+        role: 'Staff Member',
         organization: 'Bodega Film Lab',
         timePeriod: 'July 2025 - Present',
       },
       {
-        role: 'Productions Director & DJ',
-        organization: 'WPTS',
+        role: 'Productions Director',
+        organization: 'WPTS Radioi',
         timePeriod: 'May 2025 - Present',
       },
       {
-        role: 'Technical Director',
-        organization: 'SCENE (Steel City Entertainment Networking Entity)',
-        timePeriod: 'August 2024 - Present',
+        role: 'Tech Director',
+        organization: 'SCENE (Steel City Entertainment Networking Entity) at Pitt',
+        timePeriod: 'September 2024 - February 2025',
       },
     ],
   },
@@ -138,18 +138,28 @@ export const CV_SECTIONS = {
     title: 'Other Work',
     items: [
       {
-        role: 'Boom Operator',
-        filmName: 'A Better Day - Zack Hankins',
+        role: 'Sound Mixer',
+        filmName: 'What Happens in Friendsville? dir. Wendy Moore (forthcoming)',
+        timePeriod: '2025',
+      },
+      {
+        role: 'Sound Mixer',
+        filmName: 'We All Leave At The End Of The Night dir. Freya Norwood (forthcoming)',
         timePeriod: '2025',
       },
       {
         role: 'Boom Operator',
-        filmName: "Girls' Night - Anastasia Matveev",
+        filmName: 'A Better Day dir. Zack Hankins',
+        timePeriod: '2025',
+      },
+      {
+        role: 'Camera Operator, Boom Operator',
+        filmName: "Girls' Night dir. Anastasia Matveev",
         timePeriod: '2024',
       },
       {
-        role: 'Boom & Camera Operator',
-        filmName: 'Iron City Lights - Max Furman',
+        role: 'Boom Operator',
+        filmName: 'Iron City Lights dir. Max Furman',
         timePeriod: '2024',
       },
     ],
