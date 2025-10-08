@@ -106,13 +106,13 @@ export const CV_SECTIONS = {
     title: 'Experience',
     items: [
       {
-        role: 'Staff Member',
+        role: 'Staff Member, Community Engagement',
         organization: 'Bodega Film Lab',
         timePeriod: 'July 2025 - Present',
       },
       {
         role: 'Productions Director',
-        organization: 'WPTS Radioi',
+        organization: 'WPTS Radio',
         timePeriod: 'May 2025 - Present',
       },
       {
