@@ -50,7 +50,7 @@ export const JULIE_FILMS = [
     crew: [
       {
         name: 'Julie Rostock',
-        role: 'writer, director, producer',
+        role: 'writer, director, producer, editor',
       },
       {
         name: 'Anastasia Matveev',
@@ -67,10 +67,6 @@ export const JULIE_FILMS = [
       {
         name: 'Wendy Moore',
         role: 'sound recordist',
-      },
-      {
-        name: 'Julie Rostock',
-        role: 'editor',
       },
       {
         name: 'Ben Murdy',
