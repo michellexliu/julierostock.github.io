@@ -138,6 +138,11 @@ export const CV_SECTIONS = {
     title: 'Other Work',
     items: [
       {
+        role: 'Foley Artist',
+        filmName: 'Burden of Proof dir. Zain Adamo & Nate Drew (forthcoming)',
+        timePeriod: '2025',
+      },
+      {
         role: 'Sound Mixer',
         filmName: 'What Happens in Friendsville? dir. Wendy Moore (forthcoming)',
         timePeriod: '2025',
