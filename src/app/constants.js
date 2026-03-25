@@ -1,5 +1,41 @@
 export const JULIE_FILMS = [
   {
+    name: 'Welcome To The Farm',
+    meta: 'COMING SUMMER 2026',
+    summary:
+      '<p>A short horror film inspired by reality television of the lesbian variety. Shot on an old dairy farm in Central PA in October. Currently in post-production. </em></p>',
+    cast: [
+      {
+        name: 'Madeline Ellinghaus',
+        role: 'Lori',
+      },
+      {
+        name: 'Aubrey Thompson',
+        role: 'Val',
+      },
+      {
+        name: 'Sofia Ines Garcia',
+        role: 'Jandice',
+      },
+      {
+        name: 'Jamie McArthur',
+        role: 'Kennedy',
+      },
+      {
+        name: 'Caitlyn Vinger',
+        role: 'Amira',
+      },
+      {
+        name: 'Madison Oreski',
+        role: 'Eddie',
+      },
+      {
+        name: 'Emma McLaughlin',
+        role: 'Emma',
+      }
+    ],
+  },
+  {
     name: 'Joan',
     meta: '2024 | Digital | 16min',
     summary:
@@ -97,7 +133,7 @@ export const JULIE_FILMS = [
         role: 'score performance',
       },
     ],
-    more: 'Thanks for use of locations to Carrie Stanton, Napoli’s Pizza, Squirrel Hill Flowers, Kate Miller<br />Thank you to the Horror Studies Working Group for funding and Dana Och for support<br />Produced in Pittsburgh, PA in 2024 on a budget of $1000',
+    more: 'Thanks for use of locations to Carrie Stanton, Napoli’s Pizza, Squirrel Hill Flowers, Kate Miller<br />Thank you to the Horror Studies Working Group for funding and Dana Och for support<br />Produced in Pittsburgh, PA in 2024 on a budget of $1000</em></p>',
   },
 ];
 
@@ -130,13 +166,23 @@ export const CV_SECTIONS = {
         role: 'Director & Writer',
         timePeriod: '2024',
         description:
-          '<em>Recipient of the 2024 Horror Studies Working Group Student Project Scholarship<br />Screened at Horror Realm Pittsburgh and Off Page Film Festival in West Chester, PA</em>',
+          '<em>Recipient of the 2024 Horror Studies Working Group Student Project Scholarship<br />Screened at Horror Realm Pittsburgh and Off Page Film Festival in West Chester, PA<br />Recipient of the iWomanTV award for women-led production</em>',
       },
     ],
   },
   otherFilms: {
     title: 'Other Work',
     items: [
+      {
+        role: 'Producer, Sound Designer, Sound Mixer',
+        filmName: 'Playing Pretend dir. Kayla Brockington',
+        timePeriod: '2026',
+      },
+      {
+        role: 'Sound Designer, Sound Mixer',
+        filmName: 'Leave of Absence dir. Zain Adamo (forthcoming)',
+        timePeriod: '2026',
+      },
       {
         role: 'Foley Artist',
         filmName: 'Burden of Proof dir. Zain Adamo & Nate Drew (forthcoming)',
